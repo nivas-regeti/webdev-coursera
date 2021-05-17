@@ -1,0 +1,115 @@
+* {
+    box-sizing:border-box;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+  }
+body{
+	font-size: 16px;
+  	/*color: #fff;*/
+	background-color:#d2e2c0;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color:#779961;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 15px;
+  font-size:25px;
+  height:70px;
+  /*position:relative;
+  padding-left:-50px;*/
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+  position: absolute;
+  left: 60px
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  /*background-color: white*/
+  border-bottom:solid black 1px;
+  text-align: center;
+  background-color:#ebebeb;
+  font-weight: bold;
+  margin
+}
+#nav-list a:hover {
+  background: #d6e0d3;
+}
+.container h2{
+	color:#000000;
+	font-weight:bold;
+	font-family:cursive;
+	/*text-align: center;*/
+}
+section{
+    border: 1px solid black;
+    background-color: #c6c9b0;
+    margin: 20px 0px 0px 28px;
+}
+section > h3{
+    color:#000000;
+    text-align: center;
+    font-family:cursive;
+    font-weight: bold;  
+}
+section>p {
+	color:black;
+    font-size:1em;
+    font-family:cursive;
+    
+    padding: 40px 15px 15px 15px;
+}
+  .row {
+     
+    width: 100%;
+    
+  }
+  /******************  desktop  ******************/
+  @media (min-width: 992px)  {
+     .col-md-12 
+    {   
+      float: left;
+      width: 100%
+    }
+    
+  }
+  /*******************  Tabs  *******************/
+  @media (min-width: 768px) and (max-width: 991px) {
+     .col-md-12 
+    {   
+      float: left;
+      width: 100%
+    }
+    
+  }
+  /******************  Mobile  ******************/
+  @media (max-width: 767px)  {
+    .col-xs-12 {
+      float: left;
+       width:100%; 
+       /*height:1000px;*/
+    }
+}
+/*#nav-list a span {
+  font-size: 1.8em;
+}*/
